@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Explorer Travel Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0e68c;
+            margin: 20px;
+        }
+
+        #main-container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        #header {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            text-align: right;
+        }
+
+        #book-title {
+            color: #006400;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        #tagline {
+            margin: 0;
+            font-size: small;
+            color: #666;
+        }
+
+        #content-container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        #categories-box {
+            float: left;
+            width: 200px;
+            padding: 10px;
+            margin-right: 20px;
+            border: 1px solid #ddd;
+            background-color: #d3d3d3;
+            box-sizing: border-box;
+        }
+
+        #entries-container {
+            margin-left: 240px;
+        }
+
+        .entry {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            color: #8b0000;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .entry-image {
+            float: right;
+            margin-left: 10px;
+            max-width: 150px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+
+        p {
+            font-family: Georgia, serif;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div id="header">
+            <h1 id="book-title">World Explorer Travel Guide</h1>
+            <p id="tagline">Discover new horizons, one trip at a time</p>
+        </div>
+
+        <div id="content-container">
+            <div id="categories-box">
+                <h2 class="section-title">Destinations</h2>
+                <ul>
+                    <li><a href="#">Mountains</a></li>
+                    <li><a href="#">Beaches</a></li>
+                    <li><a href="#">Cities</a></li>
+                    <li><a href="#">Historical Sites</a></li>
+                </ul>
+            </div>
+
+            <div id="entries-container">
+                <div class="entry">
+                    <h2 class="section-title">Swiss Alps Adventure</h2>
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Swiss Alps" class="entry-image">
+                    <p>Experience breathtaking views of snow-capped peaks, cozy mountain lodges, and thrilling ski slopes. The Swiss Alps are perfect for both adventure seekers and those looking for peace in nature.</p>
+                </div>
+
+                <div class="entry">
+                    <h2 class="section-title">Maldives Paradise</h2>
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Maldives Beach" class="entry-image">
+                    <p>Crystal-clear waters, white sandy beaches, and luxurious resorts make the Maldives a dream destination. Snorkel among vibrant coral reefs or simply relax under the tropical sun.</p>
+                </div>
+
+                <div class="entry">
+                    <h2 class="section-title">Tokyo City Lights</h2>
+                    <img src="https://images.unsplash.com/photo-1549693578-d683be217e58" alt="Tokyo City" class="entry-image">
+                    <p>Tokyo blends tradition and modernity with its ancient temples, neon-lit streets, and cutting-edge technology. Explore bustling markets, savor sushi, and witness the city’s vibrant nightlife.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
